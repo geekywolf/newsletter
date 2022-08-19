@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:wght@500&display=swap");
+@media only screen and (max-width: 720px) {
+  body {
+    margin: 0;
+  }
+  button {
+    background-color: #377d62;
+    border: none;
+    padding: .5em 1em;
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: #204630;
+  }
+  .nav {
+    text-align: center;
+  }
+  .nav h1 {
+    font-size: 2em;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  .nav nav ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: -1.3em auto 0;
+  }
+  .nav nav ul li {
+    font-weight: normal;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    padding: 6px;
+  }
+  .nav nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav nav ul li a:hover {
+    cursor: pointer;
+    color: #377d62;
+  }
+  .banner {
+    margin-top: .2em;
+  }
+  .banner img {
+    width: 100%;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0% 10%;
+       object-position: 0% 10%;
+  }
+  .shopnow {
+    margin: auto 1.5em 1.5em;
+  }
+  .shopnow h2 {
+    text-align: center;
+    color: #204630;
+    font-size: 2em;
+  }
+  .shopnow p {
+    text-align: justify;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: .85em;
+  }
+  .shopnow button {
+    display: block;
+    margin: 2.3em auto 1em;
+    padding: .4em 1.5em;
+  }
+  .categories {
+    padding: 1em 0 1.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #f8f6ee;
+    width: 100%;
+  }
+  .categories .catbtn {
+    padding-left: 1.5em;
+  }
+  .categories .catbtn p {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    width: 90%;
+    color: #377d62;
+  }
+  .categories img {
+    padding-right: 1.5em;
+    margin-top: 0.8em;
+    width: auto;
+    height: 8em;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .display {
+    background-color: #E4F1E8;
+    padding: 1em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+  .display .card {
+    margin: .9em 0;
+    background-color: white;
+    padding: .5em;
+    width: 90%;
+    height: 50vh;
+  }
+  .display .card img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 80%;
+  }
+  .display .card p {
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  }
+  .display .card .price {
+    color: rgba(100, 98, 98, 0.829);
+    margin-top: -.8em;
+  }
+  .pitch {
+    margin-top: -1em;
+    background-color: #f8f6ee;
+    padding-bottom: 1.5em;
+  }
+  .pitch img {
+    width: 100%;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0% 70%;
+       object-position: 0% 70%;
+  }
+  .pitch p {
+    text-align: justify;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: .85em;
+    padding: 1em 1.5em;
+  }
+  .pitch button {
+    display: block;
+    margin: 0 auto;
+    padding: .4em 1.5em;
+  }
+  footer {
+    background-color: #204630;
+    padding: 1.5em;
+    color: white;
+    text-align: center;
+  }
+  footer .sociallinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .sociallinks img {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+    height: 2.5em;
+    width: 2.5em;
+    padding: .8em;
+    margin-top: 5px;
+  }
+  footer .sociallinks .pin {
+    height: 3em;
+    width: 3em;
+  }
+  footer .sociallinks .inst {
+    margin-top: 9px;
+  }
+  footer .sociallinks .fb {
+    margin-top: 9px;
+  }
+  footer .payments {
+    margin: .2em auto .7em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .payments img {
+    padding: .3em;
+    width: 4em;
+    height: 1.5em;
+  }
+  footer p {
+    margin: 0 auto 10px;
+    width: 80%;
+    font-size: .7em;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  }
+  footer p span {
+    margin-left: 5px;
+  }
+  footer p span a {
+    color: white;
+  }
+  footer p span a:hover {
+    cursor: pointer;
+    color: #E4F1E8;
+  }
+}
+/*# sourceMappingURL=style.css.map */

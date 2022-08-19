@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:wght@500&display=swap');
+
+$green : #204630;
+$greenaccent : #E4F1E8 ;
+$btn : rgb(55,125,98);
+$cream: rgb(248, 246, 238);
+
+@media only screen and (max-width: 720px) {
+    body{
+        margin: 0;
+    }
+
+    button{
+        background-color: $btn;
+        border: none;
+        padding: .5em 1em;
+        color: white;
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: $green;
+    }
+
+    .nav{
+        text-align: center;
+        h1{
+            font-size: 2em;
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+        nav{
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin: -1.3em auto 0;
+                li{
+                    font-weight: normal;
+                    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+                    padding: 6px;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                    a:hover{
+                        cursor: pointer;
+                        color: $btn;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner{
+        margin-top: .2em;
+        img{
+            width: 100%;
+            height: 40vh;
+            object-fit: cover;
+            object-position: 0% 10%;
+        }
+    }
+
+    .shopnow{
+        margin: auto 1.5em 1.5em;
+        h2{
+            text-align: center;
+            color: $green;
+            font-size: 2em;
+        }
+        p{
+            text-align: justify;
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            font-size: .85em;
+        }
+        button{
+            display: block;
+            margin: 2.3em auto 1em;
+            padding: .4em 1.5em;
+        }
+    }
+
+    .categories{
+        padding: 1em 0 1.5em;
+        display: flex;
+        justify-content: center;
+        background-color: $cream;
+        width: 100%;
+        .catbtn{
+            padding-left: 1.5em;
+            p{
+                font-family: 'Poppins', Arial, Helvetica, sans-serif;
+                font-size: 1.3em;
+                width: 90%;
+                color: $btn;
+            }
+        }
+        img{
+            padding-right: 1.5em;
+            margin-top: 0.8em;
+            width: auto;
+            height: 8em;
+            object-fit: contain;
+        }
+    }
+
+    .display{
+        background-color: $greenaccent;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        .card{
+            margin: .9em 0;
+            background-color: white;
+            padding: .5em;
+            width: 90%;
+            height: 50vh;
+            img{
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                height: 80%;
+            }
+            p{
+                font-family: 'Poppins',Arial, Helvetica, sans-serif;
+            }
+            .price{
+                color: rgba(100, 98, 98, 0.829);
+                margin-top: -.8em;
+            }
+        }
+    }
+
+    .pitch{
+        margin-top: -1em;
+        background-color: $cream;
+        padding-bottom: 1.5em;
+        img{
+            width: 100%;
+            height: 40vh;
+            object-fit: cover;
+            object-position: 0% 70%;
+        }
+        p{
+            text-align: justify;
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            font-size: .85em;
+            padding: 1em 1.5em;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            padding: .4em 1.5em;
+        }
+    }
+
+    footer{
+        background-color: $green;
+        padding: 1.5em;
+        color: white;
+        text-align: center;
+        .sociallinks{
+            display: flex;
+            justify-content: center;
+            img{
+                filter: brightness(0) invert(1);
+                height: 2.5em;
+                width: 2.5em;
+                padding: .8em;
+                margin-top: 5px;
+            }
+            .pin{
+                height: 3em;
+                width: 3em;
+            }
+            .inst{
+                margin-top: 9px;
+            }
+            .fb{
+                margin-top: 9px;
+            }
+        }
+        .payments{
+            margin: .2em auto .7em;
+            display: flex;
+            justify-content: center;
+            img{
+                padding: .3em;
+                width: 4em;
+                height: 1.5em;
+            }
+        }
+        p{
+            margin: 0 auto 10px;
+            width: 80%;
+            font-size: .7em;
+            font-family: 'Poppins',Arial, Helvetica, sans-serif;
+            span{
+                margin-left: 5px;
+                a{
+                    color: white;
+                }
+                a:hover{
+                    cursor: pointer;
+                    color: $greenaccent;
+                }
+            }
+        }
+    }
+}
