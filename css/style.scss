@@ -30,12 +30,12 @@ $cream: rgb(248, 246, 238);
             font-weight: 500;
         }
         nav{
+            width: 90%;
             ul{
                 list-style: none;
                 display: flex;
                 justify-content: center;
                 margin: -1.3em auto 0;
-                width: 90%;
                 li{
                     font-weight: normal;
                     font-family: 'Poppins', Arial, Helvetica, sans-serif;
