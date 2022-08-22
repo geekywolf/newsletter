@@ -120,16 +120,19 @@
     background-color: white;
     padding: .5em;
     width: 90%;
-    height: 50vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .display .card img {
     display: block;
     margin: 0 auto;
     width: 100%;
-    height: 80%;
+    height: 70%;
   }
   .display .card p {
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    padding-bottom: .5em;
   }
   .display .card .price {
     color: rgba(100, 98, 98, 0.829);
