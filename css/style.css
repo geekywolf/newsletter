@@ -120,6 +120,7 @@
     background-color: white;
     padding: .5em;
     width: 90%;
+    height: 40vh;
   }
   .display .card img {
     display: block;
@@ -133,7 +134,7 @@
   }
   .display .card .price {
     color: rgba(100, 98, 98, 0.829);
-    margin-top: -.8em;
+    margin-top: 0.8em;
   }
   .pitch {
     margin-top: -1em;
