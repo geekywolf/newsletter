@@ -22,6 +22,10 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
   }
+  .nav nav {
+    width: 70vw;
+    margin: 0 auto;
+  }
   .nav nav ul {
     list-style: none;
     display: -webkit-box;
